@@ -75,7 +75,7 @@ public class GameControllerScript : MonoBehaviour
 
     private IEnumerator Lose()
     {
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(4);
         if (!gameOver)
         {
             panel.SetActive(true);

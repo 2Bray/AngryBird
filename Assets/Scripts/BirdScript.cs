@@ -55,7 +55,7 @@ public class BirdScript : MonoBehaviour
             //Hancurkan gameobject setelah 2 detik
             //jika kecepatannya sudah kurang dari batas minimum
             _flagDestroy = true;
-            StartCoroutine(DestroyAfter(2));
+            StartCoroutine(DestroyAfter(4));
         }
     }
 
